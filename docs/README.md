@@ -2,6 +2,7 @@
 cnpm install
 npm run dev
 
+git pull
 npm run build
 cd docker
 rm -rf dist
