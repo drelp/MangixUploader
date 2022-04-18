@@ -1,6 +1,6 @@
 <script>
   const server_config = {
-    url: 'http://49.232.6.131:8070'
+    url: 'https://mangix-uploader.7otech.com/api'
   };
   export default {
     server_config
