@@ -8,6 +8,8 @@ cd docker
 rm -rf dist
 cp -r ../dist/ .
 
+sudo docker-compose build mangix-fe
+
 sudo docker-compose up mangix-fe
 sudo docker-compose up -d mangix-fe
 sudo docker-compose stop mangix-fe
